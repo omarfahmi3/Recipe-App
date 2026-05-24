@@ -44,7 +44,7 @@ async function fetchRcipes(query) {
       }
       return ingredientsList;
     }
-    recipeDetails.innerHTML = `<h2>Ingredient</h2>
+    recipeDetails.innerHTML = `<h2>Ingredients</h2>
     <ul>${fetchIngredients(meal)}
     </ul>
     <p>- ${meal.strInstructions}</p>`;

@@ -83,6 +83,10 @@ form button[type="submit"] {
     -5px -5px 10px rgba(34, 34, 34, 0.5);
   cursor: pointer;
   max-width: 355px;
+  transition: transform 0.5s;
+}
+.recipe:hover {
+  transform: scale(1.08);
 }
 .recipe span {
   font-weight: 600;
